@@ -1,0 +1,52 @@
+/* Importar la fuente desde Google Fonts */
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
+
+body,
+main {
+  font-family: "Roboto", sans-serif;
+  margin: 0;
+  background-color: rgb(245, 217, 227);
+}
+nav {
+  padding: 20px;
+}
+aside {
+  width: 40%;
+  height: 400px;
+}
+.imagen-bienvenida img {
+  width: 100%;
+  height: auto;
+}
+
+.search-container {
+  position: relative;
+  display: inline-block;
+  margin: 10px 3px 15px 30px;
+}
+
+.search-button {
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 100%;
+  padding: 0 10px; /* Ajusta el espacio alrededor del icono */
+  border: none;
+  background: none;
+  cursor: pointer;
+}
+
+.search-button img {
+  width: 20px; /* Ajusta el tamaño del icono */
+  height: 20px;
+}
+
+input[type="text"] {
+  padding: 8px; /* Ajusta el espacio dentro del input */
+  width: 200px; /* Ajusta el ancho del input según sea necesario */
+  box-sizing: border-box; /* Incluye el padding en el ancho total */
+  border: none; /* Establece el borde del input */
+  border-radius: 8px; /* Redondea las esquinas del input */
+  font-size: 14px; /* Ajusta el tamaño de la fuente del input */
+  outline: none;
+}
